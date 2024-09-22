@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Profile Section */
+.profile-section {
+  background-image: url(https://img.freepik.com/premium-photo/stunning-aerial-view-futuristic-city-night-city-is-full-tall-skyscrapers-bright-lights_1187703-86796.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #555;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-links a:hover {
+  background-color: #ff9800;
+}
+
+/* Posts Section */
+.posts {
+  padding: 40px 20px;
+  background-color: black;
+}
+
+.posts H1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.post {
+  width: calc(50% - 20px);
+  background-color: ORANGE;
+  padding: 10px;
+}
+
+ .post video {
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  background-image: url(https://img.freepik.com/premium-photo/stunning-aerial-view-futuristic-city-night-city-is-full-tall-skyscrapers-bright-lights_1187703-86796.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #ff9800;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .post {
+      width: 100%;
+  }
+}
