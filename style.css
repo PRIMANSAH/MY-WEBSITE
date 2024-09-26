@@ -35,7 +35,7 @@ body {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  color: white;
+  color: black;
   background-color: orange;
   text-decoration: none;
   border-radius: 5px;
@@ -81,10 +81,10 @@ body {
 /* Contact Section */
 .contact {
   padding: 40px 20px;
-  background-image: url(https://img.freepik.com/premium-photo/stunning-aerial-view-futuristic-city-night-city-is-full-tall-skyscrapers-bright-lights_1187703-86796.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  background-color: aqua;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .contact h2 {
