@@ -42,7 +42,8 @@ body {
 }
 
 .social-links a:hover {
-  background-color: #ff9800;
+  background-color: black;
+  color: black;
 }
 
 /* Posts Section */
