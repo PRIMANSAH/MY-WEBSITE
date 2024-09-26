@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
   // Proses pengiriman pesan (simulasi)
   const status = document.getElementById("formStatus");
-  status.innerHTML = `Thanks, ${name}! your message has been sent.`;
+  status.innerHTML = `Thanks, ${name}!.`;
 
   // Reset form setelah submit
   document.getElementById("contactForm").reset();
